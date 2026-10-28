@@ -1,0 +1,230 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "keywords": [
+        "hello",
+        "hi",
+        "hey",
+        "salam",
+        "assalam",
+        "assalam o alaikum",
+        "good morning",
+        "good evening"
+      ],
+      "response": "Hello! 👋 Welcome to Nexora Learning Institute!\n\nI'm NexoraBot, your friendly learning assistant. 🎓\n\nI can help you explore courses, fees, admissions, class timings, and certificates. What would you like to learn today?"
+    },
+    {
+      "tag": "courses",
+      "keywords": [
+        "courses",
+        "course",
+        "programs",
+        "program",
+        "offer",
+        "offerings",
+        "what can i learn",
+        "available courses"
+      ],
+      "response": "📚 Welcome to Nexora Learning Institute!\n\nHere are our sample learning programs:\n\n💻 Web Development\n🤖 Artificial Intelligence\n🎨 Graphic Design\n📈 Digital Marketing\n🐍 Python Programming\n✨ UI/UX Design\n\nWhich course interests you the most?"
+    },
+    {
+      "tag": "web_development",
+      "keywords": [
+        "web development",
+        "web dev",
+        "website course",
+        "frontend",
+        "front end",
+        "nextjs",
+        "next.js"
+      ],
+      "response": "💻 Web Development Course\n\nLearn how to build modern websites using HTML, CSS, JavaScript, responsive design, and modern web development tools.\n\n📅 Sample duration: 12 weeks\n🌱 Level: Beginner to intermediate\n🎯 Goal: Build your own website projects\n\nAsk me about fees or admission for more information!\n\nNote: Course details are illustrative demo content."
+    },
+    {
+      "tag": "artificial_intelligence",
+      "keywords": [
+        "artificial intelligence",
+        "ai course",
+        "ai",
+        "agentic ai",
+        "machine learning",
+        "chatbot",
+        "chatbots"
+      ],
+      "response": "🤖 Artificial Intelligence Course\n\nExplore the exciting world of AI!\n\n📌 Topics may include:\n• Introduction to AI\n• Prompt engineering\n• AI tools and applications\n• Chatbot development\n• Introduction to machine learning\n\n📅 Sample duration: 10 weeks\n🌱 Level: Beginner-friendly\n\nThis is a sample course description, not an official institute offering."
+    },
+    {
+      "tag": "graphic_design",
+      "keywords": [
+        "graphic design",
+        "design course",
+        "photoshop",
+        "illustrator",
+        "visual design"
+      ],
+      "response": "🎨 Graphic Design Course\n\nDiscover your creativity and learn design fundamentals, typography, color theory, layouts, and digital design workflows.\n\n📅 Sample duration: 8 weeks\n🌱 Level: Beginner\n🎯 Goal: Create attractive digital designs and build a portfolio."
+    },
+    {
+      "tag": "digital_marketing",
+      "keywords": [
+        "digital marketing",
+        "marketing course",
+        "seo",
+        "social media marketing"
+      ],
+      "response": "📈 Digital Marketing Course\n\nLearn the basics of online marketing, content strategy, search engine optimization (SEO), social media, and campaign planning.\n\n📅 Sample duration: 8 weeks\n🌱 Level: Beginner to intermediate\n\nContact the admissions team to verify actual course availability."
+    },
+    {
+      "tag": "python",
+      "keywords": [
+        "python programming",
+        "python course",
+        "python",
+        "coding course",
+        "programming course"
+      ],
+      "response": "🐍 Python Programming Course\n\nStart your coding journey with Python!\n\n📌 Learn about:\n• Variables and data types\n• Conditions and loops\n• Functions\n• Problem-solving\n• Practical programming exercises\n\n📅 Sample duration: 10 weeks\n🌱 Level: Beginner"
+    },
+    {
+      "tag": "uiux",
+      "keywords": [
+        "ui ux",
+        "ui/ux",
+        "ux design",
+        "ui design",
+        "user interface",
+        "user experience"
+      ],
+      "response": "✨ UI/UX Design Course\n\nLearn how to design user-friendly digital experiences.\n\n📌 Topics include:\n• Design fundamentals\n• Wireframes and layouts\n• User research\n• Prototyping\n• Usability principles\n\n📅 Sample duration: 8 weeks\n🌱 Level: Beginner"
+    },
+    {
+      "tag": "fees",
+      "keywords": [
+        "fees",
+        "fee",
+        "price",
+        "cost",
+        "charges",
+        "tuition",
+        "how much",
+        "course fee"
+      ],
+      "response": "💰 Course Fee Information\n\nCourse fees may vary depending on the selected program, duration, and study format.\n\nPlease contact the institute's admissions team for the confirmed fee structure and payment options.\n\nI don't have verified official prices in this demo."
+    },
+    {
+      "tag": "admission",
+      "keywords": [
+        "admission",
+        "admissions",
+        "enroll",
+        "enrollment",
+        "register",
+        "registration",
+        "join",
+        "apply",
+        "how to apply"
+      ],
+      "response": "🎓 How to Get Admission\n\nFollow these general steps:\n\n1. Choose your preferred course.\n2. Check the entry requirements.\n3. Ask the admissions team for the application form.\n4. Confirm the fees and class schedule.\n5. Complete the official enrollment process.\n\nWould you like to explore our courses first? 😊"
+    },
+    {
+      "tag": "timings",
+      "keywords": [
+        "timings",
+        "timing",
+        "schedule",
+        "class time",
+        "class timings",
+        "when are classes",
+        "weekend classes",
+        "class schedule"
+      ],
+      "response": "🕒 Class Timings\n\nClass schedules depend on the course and batch.\n\nPlease contact the admissions team to confirm:\n• Morning and evening batches\n• Weekend classes\n• Available seats\n• Upcoming batch dates\n\nI don't have a verified live timetable in this demo."
+    },
+    {
+      "tag": "online",
+      "keywords": [
+        "online classes",
+        "online course",
+        "online",
+        "remote learning",
+        "virtual classes",
+        "from home"
+      ],
+      "response": "🌐 Online Learning\n\nInterested in learning from home?\n\nPlease ask the admissions team which courses currently support online study.\n\nThey can confirm class format, attendance requirements, learning materials, and any technical requirements."
+    },
+    {
+      "tag": "certificate",
+      "keywords": [
+        "certificate",
+        "certificates",
+        "certification",
+        "certified",
+        "completion certificate"
+      ],
+      "response": "🏆 Certificates and Achievement\n\nCertificate availability depends on the course and its completion requirements.\n\nBefore enrolling, confirm whether your selected program includes a certificate and what requirements you must complete to receive it."
+    },
+    {
+      "tag": "requirements",
+      "keywords": [
+        "requirements",
+        "eligibility",
+        "qualification",
+        "prerequisites",
+        "prerequisite",
+        "beginner",
+        "experience required"
+      ],
+      "response": "✅ Course Entry Requirements\n\nRequirements vary by program.\n\nMany introductory courses can be suitable for beginners, while advanced courses may require previous knowledge or experience.\n\nTell me which course interests you, and I can share its sample learning level."
+    },
+    {
+      "tag": "duration",
+      "keywords": [
+        "duration",
+        "how long",
+        "course length",
+        "weeks",
+        "months",
+        "course duration"
+      ],
+      "response": "📅 Course Duration\n\nCourse length depends on the program. The sample durations listed by NexoraBot are for demonstration only.\n\nPlease contact admissions for the official duration, weekly class hours, and start date of your chosen course."
+    },
+    {
+      "tag": "contact",
+      "keywords": [
+        "contact",
+        "phone",
+        "email",
+        "address",
+        "location",
+        "whatsapp",
+        "contact number",
+        "institute address"
+      ],
+      "response": "📩 Contact the Institute\n\nFor verified contact details, please check the institute's official website or contact its admissions office directly.\n\nThis demo does not contain an official phone number, email address, or campus location."
+    },
+    {
+      "tag": "thanks",
+      "keywords": [
+        "thanks",
+        "thank you",
+        "thankyou",
+        "shukriya",
+        "thank u"
+      ],
+      "response": "You're most welcome! 💙🎓\n\nI'm always happy to help you explore your learning options. Keep learning, keep growing! ✨"
+    },
+    {
+      "tag": "goodbye",
+      "keywords": [
+        "goodbye",
+        "bye",
+        "see you",
+        "allah hafiz",
+        "take care"
+      ],
+      "response": "Goodbye! 👋💙\n\nYour learning journey is just getting started. Best of luck with your goals, and visit NexoraBot again whenever you need help! 🎓✨"
+    }
+  ],
+  "fallback": "Hmm, I'm not sure I understood that question. 🤔💙\n\nI'm NexoraBot, your learning assistant! You can ask me about:\n\n📚 Courses\n🤖 Artificial Intelligence\n💰 Fees\n🎓 Admissions\n🕒 Class timings\n🌐 Online classes\n🏆 Certificates\n\nTry asking a question using one of these topics!"
+}
